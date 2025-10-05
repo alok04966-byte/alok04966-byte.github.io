@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo-image">
+                <img src="images/logo.png" alt="Alok Bisoyi Logo">
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home" aria-label="Home">Home</a></li>
+                <li><a href="#about" aria-label="About">About</a></li>
+                <li><a href="#projects" aria-label="Projects">Projects</a></li>
+                <li><a href="#contact" aria-label="Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="parallax-container">
+        <a id="home"></a>
+        <div class="parallax-layer layer-background"></div>
+
+        <div class="parallax-layer layer-hero">
+            <div class="hero-content">
+                <h1 class="gradient-text">Alok Bisoyi</h1>
+                <p>Frontend Developer</p>
+            </div>
+        </div>
+
+        <div class="parallax-layer layer-content">
+            <main>
+
+                <section id="about">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="about-bio">
+                        I'm a passionate Computer Science student specializing in frontend development. I thrive on
+                        turning complex problems into elegant, user-friendly designs and love the challenge of building
+                        beautiful and intuitive web experiences. I am a quick learner, constantly exploring new
+                        technologies, and am eager to apply my skills to create meaningful, real-world applications.
+                    </p>
+                    <h3 class="section-title">Skills</h3>
+
+                    <div class="skills-container">
+
+                        <div class="skill-card">
+                            <div class="skill-card-inner">
+                                <div class="skill-card-front">
+                                    <h3>HTML5</h3>
+                                </div>
+                                <div class="skill-card-back">
+                                    <i class="fa-brands fa-html5"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-card">
+                            <div class="skill-card-inner">
+                                <div class="skill-card-front">
+                                    <h3>CSS3</h3>
+                                </div>
+                                <div class="skill-card-back">
+                                    <i class="fa-brands fa-css3-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-card">
+                            <div class="skill-card-inner">
+                                <div class="skill-card-front">
+                                    <h3>JS(ES6)</h3>
+                                </div>
+                                <div class="skill-card-back">
+                                    <i class="fa-brands fa-js"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-card">
+                            <div class="skill-card-inner">
+                                <div class="skill-card-front">
+                                    <h3>Java</h3>
+                                </div>
+                                <div class="skill-card-back">
+                                    <i class="fa-brands fa-java"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-card">
+                            <div class="skill-card-inner">
+                                <div class="skill-card-front">
+                                    <h3>Python</h3>
+                                </div>
+                                <div class="skill-card-back">
+                                    <i class="fa-brands fa-python"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-card">
+                            <div class="skill-card-inner">
+                                <div class="skill-card-front">
+                                    <h3>GitHub</h3>
+                                </div>
+                                <div class="skill-card-back">
+                                    <i class="fa-brands fa-github"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+
+                <section id="projects">
+                    <h2 class="section-title">My Projects</h2>
+
+                    <div class="project-container">
+
+                        <article class="project-card">
+                            <img src="images/project1.png" alt="Movie Info App Screenshot" class="project-image">
+                            <div class="project-content">
+                                <h3>Movie Info Search App</h3>
+                                <p>A web app built during a hackathon that uses the OMDB API to allow users to search
+                                    for movies and view details.</p>
+                                <div class="project-tech">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                    <span>JavaScript</span>
+                                    <span>OMDB API</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="https://github.com/alok04966-byte/Movie-Search-App-Demo/"
+                                        target="_blank">GitHub</a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="project-card">
+                            <img src="images/project2.png" alt="Game Screenshot" class="project-image">
+                            <div class="project-content">
+                                <h3>Sacrifice for Seconds</h3>
+                                <p>A web game built during a game dev hackathon, where player has to survive from the
+                                    red circles for certain time and has to sacrifise any key to kill the red enemy
+                                    circles.</p>
+                                <div class="project-tech">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                    <span>JavaScript</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="https://github.com/alok04966-byte/Movie-Search-App-Demo/"
+                                        target="_blank">GitHub</a>
+                                </div>
+                            </div>
+                        </article>
+
+                    </div>
+                </section>
+
+
+                <section id="contact">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p class="contact-message">I'm currently open to new opportunities and collaborations. My inbox is
+                        always open, whether you have a question or just want to say hi, I'll get back to you!</p>
+                    <a href="mailto:alok04966@gmail.com" class="contact-button">Say Hello</a>
+                </section>
+            </main>
+        </div>
+
+        <footer>
+            <div class="social-links">
+                <a href="https://github.com/alok04966-byte" target="_blank"><i class="fa-brands fa-github"></i></a>
+
+                <a href="https://www.linkedin.com/in/alok-bisoyi-7045b8332/" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></a>
+
+                <a href="https://x.com/Alok04966Bisoyi" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+
+                <a href="https://leetcode.com/u/Alok_Bisoyi/" target="_blank"><i class="fa-solid fa-code"></i></a>
+
+                <a href="https://www.hackerrank.com/profile/alok04966" target="_blank"><i
+                        class="fa-brands fa-hackerrank"></i></a>
+
+                <a href="https://codeforces.com/profile/Alok_Bisoyi" target="_blank"><i
+                        class="fa-solid fa-trophy"></i></a>
+
+                <a href="https://discord.com/users/alok63719" target="_blank"><i class="fa-brands fa-discord"></i></a>
+            </div>
+            <p>&copy; 2025 Alok Bisoyi. All rights reserved.</p>
+        </footer>
+
+    </div>
+
+
+</body>
+
+</html>
